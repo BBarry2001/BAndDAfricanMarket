@@ -25,3 +25,5 @@ backend/user/models.py
 
 # Virtual Environment
 virtual-environment
+
+.DS_Store
