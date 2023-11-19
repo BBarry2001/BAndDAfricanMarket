@@ -1,0 +1,24 @@
+.root {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .saveBtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+  }
+  

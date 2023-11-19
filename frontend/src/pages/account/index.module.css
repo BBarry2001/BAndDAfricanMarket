@@ -1,0 +1,27 @@
+.container {
+text-align: center;
+padding-top: 40px;
+padding-bottom: 50px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.avatarContainer {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+.userProfileImage{
+width: 110px  !important;
+}
+
+.userName {
+margin-left: 15px;
+font-size: 28px; 
+font-weight: bold;
+}
+
+.description {
+margin: 40px 0;
+}

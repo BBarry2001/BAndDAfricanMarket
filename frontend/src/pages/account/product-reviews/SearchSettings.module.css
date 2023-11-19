@@ -1,0 +1,32 @@
+.headerContainer {
+display: flex;
+justify-content: center;
+position: relative;
+margin-bottom: 40px;
+}
+
+.headerText {
+margin: 0;
+}
+
+.resetButton {
+position: absolute;
+right: 0;
+}
+
+.singleResetButton {
+margin-left: 10px;
+}
+
+.sliderLabels {
+display: flex;
+justify-content: space-between;
+}
+
+.filterItem {
+margin-bottom: 24px;
+}
+
+.row > div {
+margin-bottom: 20px;
+}

@@ -1,0 +1,30 @@
+.Card {
+background-color: #ECEFF1; 
+border: 1px solid #B0BEC5;
+border-radius: 8px;
+padding: 20px;
+}
+
+.SearchSettingsCard {
+margin-top: 20px;
+}
+  
+.headerContainer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header {
+font-family: 'Arial', sans-serif;
+font-weight: bold;
+text-align: left;
+color: #001F3F;  
+}
+
+.resultCard {
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 20px;
+margin-top: 20px;
+}

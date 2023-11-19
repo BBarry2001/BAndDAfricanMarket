@@ -1,0 +1,41 @@
+/* Loading bar container styles */
+.loading-bar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+/* Styling for the loading bar itself */
+.loading-bar {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+
+  /* Gradient background with animation for visual effect, using the websites theme colors */
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #DAA520,
+    white,
+    #001F3F,
+    transparent
+  );
+  animation: loading-animation 1.5s infinite;
+}
+
+/* Keyframes for loading bar animation */
+@keyframes loading-animation {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}

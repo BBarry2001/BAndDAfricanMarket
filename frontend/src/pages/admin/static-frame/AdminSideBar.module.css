@@ -1,0 +1,18 @@
+.siderStyle {
+    background-color: #001529;
+  }
+  
+  .logo {
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo h2 {
+    color: #fff;
+    margin: 0;
+  }
+  

@@ -1,0 +1,32 @@
+.recentlyBought {
+padding: 20px;
+background-color: #f0f2f5;
+}
+
+.productCard {
+border-radius: 8px;
+transition: transform .3s ease-in-out;
+}
+
+.productCard:hover {
+transform: translateY(-5px);
+}
+
+.addToCart {
+margin-top: 10px;
+}
+
+.dropdownMenu {
+max-height: 300px;
+overflow-y: auto;
+}
+
+.rating {
+margin-top: 5px;
+}
+
+.price {
+font-size: 1.2em;
+font-weight: 600;
+color: #228B22; 
+}

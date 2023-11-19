@@ -1,0 +1,41 @@
+/* Container for the error message */
+.resultContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Styling for the subtitle containing the error details */
+.subTitle {
+    text-align: center;
+}
+
+/* Style for the heading in the subtitle */
+h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Paragraph style in the subtitle */
+p {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* Animation for the 404 number to create a bouncing effect */
+.bounceAnimation {
+    animation: bounce 1s infinite alternate;
+}
+
+/* Keyframes for the bouncing animation */
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}

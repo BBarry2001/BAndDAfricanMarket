@@ -1,0 +1,109 @@
+.reviewCard {
+margin-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.avatar {
+border: 2px solid #1890ff;
+margin-right: 20px;
+
+}
+
+.verifiedTag {
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.userReview {
+margin-top: 10px;
+overflow-y: auto; 
+max-height: 200px; 
+white-space: pre-wrap; 
+overflow-wrap: break-word; 
+}
+
+.reactionSpace {
+margin-top: 20px;
+}
+
+.icon {
+font-size: 20px;
+color: grey;
+}
+
+.liked {
+font-size: 20px;
+color: rgb(30, 208, 30);
+}
+
+.disliked {
+font-size: 20px;
+color: red;
+}
+
+.likeDislikeNumber {
+font-weight: bold;
+margin-left: 5px;
+}
+
+.flexContainer {
+display: flex;
+align-items: flex-start;
+}
+
+.avatarContainer {
+flex-shrink: 0;
+}
+
+.cardContent {
+flex: 1;
+margin-left: 20px;
+}
+
+.replyLabel {
+margin-top: 25px;
+color: #DAA520;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.seeRepliesLabel {
+margin-left: 10px;
+color: #001F3F;
+cursor: pointer;
+}
+
+.replySection {
+margin-top: 10px;
+}
+
+.replyInput {
+resize: both;
+overflow: auto;
+}
+
+.buttonContainer {
+margin-top: 10px;
+display: flex;
+justify-content: flex-end;
+}
+
+.cancelReplyButton {
+margin-right: 10px;  
+}  
+
+.sendReplyButton {
+float: right;
+}
+
+.ReviewCardEditButton {
+border: 2px solid blue;
+color: blue;
+}
+
+.ReviewCardDeleteButton {
+border: 2px solid red;
+color: red;
+}

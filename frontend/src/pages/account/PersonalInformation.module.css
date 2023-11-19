@@ -1,0 +1,51 @@
+.header {
+font-family: 'Arial', sans-serif;
+font-weight: bold;
+text-align: left;
+color: #001F3F; 
+}
+
+.Card {
+background-color: #ECEFF1; 
+border: 1px solid #B0BEC5;  
+border-radius: 8px;
+padding: 20px;
+}
+
+.editSpan {
+cursor: pointer;
+float: right;
+color: #039BE5;  
+}
+
+.inputField {
+width: 100%;
+border: 2px solid #78909C;  
+}
+
+.buttonGroup {
+display: flex;
+gap: 5px;
+margin-left: 50px;
+}
+
+.buttonSave {
+background-color: #43A047;  
+color: white;
+}
+
+.buttonCancel {
+background-color: #F44336; 
+color: white;
+}
+
+.labelStyle {
+background-color: #CFD8DC;  
+color: #37474F; 
+padding: 5px;
+border-radius: 4px;
+}
+
+.editSpan:hover {
+text-decoration: underline;
+}

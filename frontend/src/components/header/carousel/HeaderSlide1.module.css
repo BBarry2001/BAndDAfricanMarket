@@ -1,0 +1,63 @@
+.background {
+width: 100%;
+height: 700px;
+object-fit: cover;
+}
+
+.carouselItem {
+position: relative;
+height: 100%;
+width: 100%;
+}
+
+.centerContainer {
+position: absolute;
+top: 72%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.header {
+font-size: 2.9em;
+color: #FFF4E6;
+text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.greeting {
+color: #FFD700;
+animation: fadeIn 2s ease-in-out;
+}
+
+.paragraph {
+font-size: 1.7em;
+color: #FFDAB9;
+text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+margin: 0 auto;
+max-width: 600px;
+}
+
+.buttonContainer {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 20px;
+}
+
+.button1,
+.button2 {
+background-color: transparent;
+padding: 10px 20px;
+border: 2px solid #FFF4E6;
+border-radius: 5px;
+font-size: 1em;
+color: #FFF4E6;
+text-decoration: none;
+text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.button1:hover,
+.button2:hover {
+background-color: #FFF4E6;
+color: #8B4513;
+}

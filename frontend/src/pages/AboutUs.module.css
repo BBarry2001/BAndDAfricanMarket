@@ -1,0 +1,89 @@
+.container {
+background-color: white;
+padding-bottom: 85px;
+}
+
+.imageFrame {
+position: relative;
+height: 350px;
+width: 100%;
+}
+
+.mainImage {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.title {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 48px;
+font-weight: bold;
+text-align: center;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+font-family: 'Courier New', Courier, monospace;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.textSection {
+text-align: left;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.text {
+margin: 40px 0;
+font-size: 20px;
+line-height: 1.6;
+border-left: 4px solid #DAA520;  
+padding-left: 20px;
+}
+
+.quoteTitle {
+font-size: 30px;
+background: -webkit-linear-gradient(#DAA520, #222222);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-left: 10px;
+}
+
+.subText {
+font-size: 14px;
+color: gray;
+margin-bottom: 15px;
+margin-left: 10px;
+}
+
+.smileIcon {
+color: red;
+}
+
+.quoteWrapper {
+text-align: center;
+margin-top: 20px;
+}
+
+.quote {
+margin: 0 auto;
+font-size: 20px;
+color: black;
+border-left: 4px solid #DAA520;  
+margin-left: 10px;
+font-style: italic;
+}
+
+.quoteAuthor {
+border-bottom: 1px solid #DAA520;  
+padding-bottom: 2px;
+}
+
+.marginQuote {
+margin-top: 30px;
+margin-bottom: 20px;
+}

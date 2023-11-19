@@ -1,0 +1,28 @@
+.floatingButtonGroup {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 1000; 
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 10px; 
+}
+
+.floatingButton {
+  background-color: #1890ff; 
+  border-color: #1890ff; 
+  color: #fff; 
+  transition: all 0.3s; 
+}
+
+.floatingButton:hover {
+  background-color: #096dd9; 
+  border-color: #096dd9; 
+}
+
+.optionButton {
+  background-color: #1890ff; 
+  border-color: #1890ff;
+  color: #fff;
+}

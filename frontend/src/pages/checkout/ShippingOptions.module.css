@@ -1,0 +1,130 @@
+.container, .dynamicDelivery, .flexContainer {
+display: flex;
+gap: 20px;
+}
+
+.container {
+padding: 0 20px;
+margin-top: 80px;
+
+}
+
+.sideCard, .mainCard, .card {
+border-radius: 12px;
+background-color: white;
+margin-bottom: 20px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title, .subtitle, .flipLabel {
+color: #001F3F;
+margin: 0;
+}
+
+.form, .formItem {
+margin: 0;
+}
+
+.sideCard {
+flex: 1;
+}
+
+.mainCard {
+flex: 2;
+}
+
+.submitButton {
+    color: white;
+    background-color: #007bff;
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+
+  .formItem {
+    margin-bottom: 16px;
+  }
+
+  .cardHeader {
+    padding: 15px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .cardFooter {
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+
+  .select {
+width: 100%;
+transition: border-color 0.3s ease;
+}
+
+.select:hover {
+border-color: #DAA520;
+}
+
+.formItem label {
+font-family: 'Arial', sans-serif;
+}
+
+.flipClock {
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+.flipUnit {
+background: #DAA520;
+color: white;
+padding: 0.2em 0.5em;
+border-radius: 4px;
+}
+
+.tooltipText {
+visibility: hidden;
+opacity: 0;
+transition: all 0.2s;
+}
+
+.tooltipIcon:hover .tooltipText {
+visibility: visible;
+opacity: 1;
+}
+
+.eligibilityText {
+display: none;
+color: #52c41a;
+}
+
+.zipSearch {
+width: 45%;
+}
+
+.formItem, .toggleSwitch {
+margin-top: 10px;
+}
+
+.ant-collapse-header {
+font-size: 1.2rem;
+color: #333;
+padding: 15px;
+}
+
+.ant-collapse-item {
+margin-bottom: 20px;
+}
+
+.ant-collapse-item.ant-collapse-item-active > .ant-collapse-header {
+font-weight: 600;
+background-color: #f9f9f9;
+}

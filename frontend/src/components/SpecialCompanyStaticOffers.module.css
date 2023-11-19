@@ -1,0 +1,92 @@
+/* Container for the offers */
+.offers-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 40px 0;
+    border-top: 2px solid #FFD700; 
+    border-bottom: 2px solid #FFD700;
+  }
+  
+  /* General styling for each offer section */
+  .offers-container div {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Styles for offer descriptions */
+.offer-description, .email-description {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  /* Special style for email description */
+  .email-description {
+    cursor: pointer;
+  }
+  
+  /* Style for links within the component */
+  .link {
+    color: inherit; /* Inherits the parent color */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+  }
+  
+  /* Styling for the borders between offers */
+  .offers-container div:not(:last-child) {
+    border-right: 1px solid #FFD700;
+  }
+  
+  /* Hover effect on each offer section */
+  .offers-container div:hover {
+    background-color: inherit; 
+  }
+  
+  /* Styling for the icons in each offer section */
+  .offers-container i {
+    font-size: 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  /* Specific color styling for each icon */
+  .icon-truck i { color: #FF4500; }
+  .icon-phone i { color: #FFD700; }
+  .icon-gift i { color: #008000; }
+  .icon-undo i { color: #000000; }
+  
+  /* Styling for text and links in each offer section */
+  .offers-container p,
+  .offers-container a {
+    margin-top: 10px;
+    color: #001F3F; 
+    font-size: 1rem;
+  }
+  
+  /* Tooltip container and text styling */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltiptext {
+    visibility: hidden;
+    background-color: #001F3F;
+    color: #FDFDFF;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+    

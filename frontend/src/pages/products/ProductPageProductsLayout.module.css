@@ -1,0 +1,32 @@
+.content {
+flex: 3;
+}
+
+.sortSection {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+margin-left: 40px;
+}
+
+.sortDropdown {
+width: 200px;
+}
+
+.pagination {
+text-align: center;
+margin-top: 20px;
+padding-bottom: 30px;
+}
+
+.gridContainer {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+
+.productCard {
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

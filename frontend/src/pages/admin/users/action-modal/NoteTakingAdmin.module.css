@@ -1,0 +1,19 @@
+.modalContent {
+}
+
+.floatButton {
+position: fixed;
+bottom: 30px;
+right: 30px;
+}
+
+.searchUserNotes {
+margin: 20px 0;
+}
+
+.pagination {
+margin-top: 20px;
+}
+
+.noteForm {
+}

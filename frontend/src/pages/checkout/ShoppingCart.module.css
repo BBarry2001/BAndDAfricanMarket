@@ -1,0 +1,89 @@
+.container {
+height: auto;
+padding: 20px;
+}
+
+.headerRow {
+display: flex;
+align-items: center;
+}
+
+.innerContainer {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+.cartCard {
+margin-bottom: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 100%;
+}
+
+.textMuted {
+font-size: larger;
+}
+
+.title {
+font-size: x-large;
+}
+
+.cartLabel {
+font-size: 2rem;
+font-weight: bold;
+}
+
+.itemLabel {
+font-size: 1.2rem;
+margin-left: 20px;
+color: #555;
+}
+
+.buttonRow {
+margin-top: 20px;
+margin-right: 20px;
+}
+
+.CheckoutButton {
+height: 40px;
+width: 150px;
+margin-left: 10px;
+color: white;
+border: 2px solid white;
+background-color: #001F3F;
+}
+
+.CheckoutButton:hover{
+background-color: #DAA520 !important;
+}
+
+.ContinueShoppingButton {
+height: 40px;
+width: 150px;
+margin-left: 10px;
+background-color: white;
+color: #8B0000;
+border: 1px solid #001F3F;
+}
+
+.ContinueShoppingButton:hover{
+background-color: #DAA520;
+color: white !important;
+border: 2px solid #001F3F !important;
+}
+
+.BottomTotal {
+font-size: 2.2rem;
+font-weight: bold;
+}
+
+.textMuted.adjusted {
+margin-top: -10px; 
+}
+
+.totalRow {
+margin-top: 20px;
+}

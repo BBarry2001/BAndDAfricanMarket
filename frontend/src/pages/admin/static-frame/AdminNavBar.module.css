@@ -1,0 +1,46 @@
+.headerStyle {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #001529;
+padding: 0 20px;
+}
+
+.headerLeft, .headerCenter, .headerRight {
+display: flex;
+align-items: center;
+}
+
+.headerCenter {
+flex-grow: 1;
+justify-content: center;
+}
+
+.headerRight {
+gap: 30px;  
+}
+
+.homeIcon, .mailIcon {
+font-size: 22px;
+color: #FFFFFF;
+}
+
+.avatarWithBorder {
+border: 2px solid gold;
+border-radius: 50%;
+}
+
+.profileCard {
+display: flex;
+align-items: center;
+}
+
+.adminName {
+color: white;
+margin-left: 10px;
+}
+
+.clickable {
+cursor: pointer;
+}
+

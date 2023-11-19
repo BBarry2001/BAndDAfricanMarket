@@ -1,0 +1,45 @@
+.frame {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .title {
+    margin-bottom: 24px;
+    font-size: 2.4em;
+    border-bottom: 3px solid #DAA520;
+  }
+  
+  .cardBody {
+    margin-top: 20px;
+  }
+  
+  .instruction {
+    font-size: 1em;
+    margin-bottom: 1rem;
+    color: grey;
+  }
+  
+  .field {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  
+  .label {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+  }
+  
+  .button {
+    color: white;
+    border: 2px solid white;
+    background-color: #001F3F;
+    margin-bottom: 24px;
+    height: 40px;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #DAA520 !important;
+  }
+  

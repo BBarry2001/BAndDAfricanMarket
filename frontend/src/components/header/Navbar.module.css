@@ -1,0 +1,134 @@
+/* Header Styles */
+.header {
+  background: #001F3F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Right Group Container */
+.rightGroup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Login & Register Container */
+.loginRegisterContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  color: #FFD700;
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Pacifico', cursive;
+}
+
+/* Navigation Menu */
+.menu {
+  font-size: 16px;
+  background: transparent;
+  margin-right: 20px;
+}
+
+/* Cart and Profile Group */
+.cartAndProfileGroup {
+  display: flex;
+  align-items: center;
+}
+
+/* Menu Items */
+.menuItem {
+  color: white !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 0 15px;
+}
+
+/* Cart Icon and Text Container */
+.menuItemCart {
+  color: white;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Generic Icon Styles */
+.icon {
+  font-size: 2em;
+  transition: color 0.3s ease-out;
+}
+
+/* Badge for Cart Items */
+.badge {
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  line-height: 1;
+  margin-left: 5px;
+}
+
+/* Cart Dropdown Link */
+.cartDropdownLink {
+  display: flex;
+  align-items: center;
+}
+
+/* Text inside Cart */
+.cartText {
+  font-size: 1.3em;
+  color: white;
+  margin-left: 5px;
+}
+
+/* Username Display */
+.userName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: wheat;
+  font-size: 16px;
+}
+
+/* Login and Register Link Styles */
+.loginLink,
+.registerLink {
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.loginLink {
+  background: #007bff;
+  margin-right: 20px;
+}
+
+.registerLink {
+  background: #28a745;
+}
+
+/* Hover States for Login and Register Links */
+.loginLink:hover,
+.registerLink:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.loginLink:hover {
+  background: #0056b3;
+}
+
+.registerLink:hover {
+  background: #218838;
+}

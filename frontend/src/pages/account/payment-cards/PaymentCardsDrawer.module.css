@@ -1,0 +1,39 @@
+.drawerTitle {
+  font-weight: 600;
+  font-size: 22px;
+  color: #001F3F;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #001F3F;
+  color: #fff;
+  padding: 15px;
+  border: 1px solid #444;
+  margin-bottom: 15px;
+}
+
+.editButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.actionButton {
+  background-color: #555;
+  color: #fff;
+  border: none;
+}
+
+.dangerButton {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+}

@@ -1,0 +1,133 @@
+/* Flex wrapper for positioning child elements */
+.flexParentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 50px;
+  gap: 10px;
+}
+
+/* Cart style adjustments for authenticated users */
+.authenticatedCart {
+  position: absolute !important;
+  left: 10px;
+  top: 10px;
+}
+
+/* Central alignment for content */
+.centeredContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the menu button */
+.menuButton {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+/* Button group for holding multiple buttons */
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Extra margin between sections */
+.marginBetween {
+  margin-top: 20px;
+}
+
+/* Custom drawer appearance */
+.customDrawer {
+  background-color: #001F3F !important;
+  color: white;
+}
+
+/* Menu inside the drawer */
+.customDrawerMenu {
+  background-color: #001F3F;
+  color: white;
+}
+
+/* User profile card in drawer */
+.customProfileCard {
+  display: flex;
+  align-items: center;
+  color: wheat;
+  background-color: #001F3F;
+  justify-content: space-between;
+  border-radius: 12px;
+  width: 65%;
+}
+
+/* Logo style */
+.customLogo {
+  color: #FFD700;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Pacifico', cursive;
+}
+
+/* Cart icon size */
+.icon {
+  font-size: 1.5em;
+}
+
+/* Badge for cart count */
+.badge {
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+/* Login and register container */
+.loginRegisterContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+/* Login and register link styles */
+.loginLink, .registerLink {
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.loginLink {
+  background: #007bff;
+  margin-right: 20px;
+}
+
+.registerLink {
+  background: #28a745;
+}
+
+/* Cart text and layout */
+.cartDropdownLink {
+  display: flex;
+  align-items: center;
+}
+
+.cartText {
+  font-size: 1.3em;
+  color: white;
+  margin-left: 5px;
+}
+
+/* Username appearance */
+.userName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: wheat;
+  font-size: 16px;
+  margin: 0 5px;
+}

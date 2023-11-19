@@ -1,0 +1,82 @@
+.reviewSection {
+background-color: #f0f2f5;
+border-radius: 8px;
+margin: 15px 0;
+padding: 20px;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 15px;
+}
+
+.reviewHeader {
+font-size: 24px;
+}
+
+.reviewCard {
+margin-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+background-color: #f0f0f0;  
+}
+
+.reviewCard:hover {
+background-color: #e6e6e6; 
+}
+
+.avatar {
+border: 2px solid #1890ff;
+margin-right: 20px;
+}
+
+.verifiedTag {
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.userReview, .reviewText {
+margin-top: 10px;
+}
+
+.alternateReviewCard {
+background-color: #C2E0F4; 
+}
+
+.reactionSpace {
+margin-top: 20px;
+}
+
+.icon, .liked, .disliked {
+font-size: 20px;
+}
+
+.icon {
+color: grey;
+}
+
+.liked {
+color: green;
+}
+
+.disliked {
+color: red;
+}
+
+.flexContainer {
+display: flex;
+align-items: center;
+}
+
+.cardContent {
+flex: 1;
+margin-left: 20px;
+}
+
+.modal {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}

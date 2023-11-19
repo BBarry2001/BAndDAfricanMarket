@@ -1,0 +1,103 @@
+/* Main footer styling */
+.antFooter {
+background-color: #001F3F;
+color: white;
+text-align: center;
+border-top: 6px solid #DAA520;
+width: 100%;
+}
+
+/* Social media icon column styling */
+.iconCol {
+font-size: 50px;
+margin-bottom: 25px;
+}
+
+/* Social media icon button styling */
+.iconButton {
+margin: 0 15px;
+color: #DAA520;
+}
+
+/* Subscription container and it's stylings */
+.subscribeContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.subscribeTitle {
+margin-right: 25px;
+font-size: 26px;
+}
+
+.subscribeInput {
+width: 320px;
+height: 55px;
+margin: 0 25px;
+background-color: transparent;
+border: 3px solid #DAA520;
+color: white;  
+font-family: Verdana, sans-serif;  
+}
+
+.subscribeInput::placeholder {
+color: white;
+font-family: Verdana, sans-serif;  
+}
+
+.subscribeButton {
+height: 55px;
+background-color: transparent;
+color: white;
+border: 2px solid #DAA520;
+transition: all 0.3s ease; 
+}
+
+.subscribeButton:hover {
+background-color: #001F3F;
+transition: background-color 0.3s ease;
+}
+
+/* Footer message stylings */
+.footerMessage {
+margin: 5px;
+text-align: center;
+font-family: 'Courier New', monospace;
+font-size: 16px;
+}
+
+.links {
+font-size: 20px;
+text-align: center; 
+}
+
+.linkItem a {
+color: inherit;  
+text-decoration: none;  
+}
+
+.columnHeader {
+margin-bottom: 15px;
+}
+
+.linkItem {
+margin-bottom: 10px;
+margin-top: 15px;
+}
+
+.bottomCopyright {
+background-color: #001F3F;
+padding: 20px;
+color: #DAA520;
+font-size: 16px;
+text-align: center;
+border-top: 1px solid #DAA520;
+}
+
+/* Footer row alignment */
+.centerRow {
+justify-content: center; 
+align-items: center; 
+}

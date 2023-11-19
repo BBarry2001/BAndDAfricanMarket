@@ -1,0 +1,38 @@
+.field {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .label {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+  }
+  .button {
+    color: white;
+    border: 2px solid white;
+    background-color: #001F3F;
+    margin-bottom: 24px;
+    width: 100%;
+    height: 45px !important;  
+    font-size: 1.1em !important; 
+    }
+    
+    .button:hover {
+    background-color: #DAA520 !important;
+    }
+  .error {
+    border-color: red;
+  }
+  .errorText {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .infoText {
+    margin-top: 15px;
+    font-size: 1em;
+  }
+  .link {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }

@@ -1,0 +1,18 @@
+.BarChartContainer {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Bar {
+    transition: fill 0.3s ease;
+}
+
+.Bar:hover {
+    fill-opacity: 0.8;
+}

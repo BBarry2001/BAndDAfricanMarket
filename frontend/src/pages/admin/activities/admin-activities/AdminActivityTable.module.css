@@ -1,0 +1,42 @@
+.tableContainer {
+margin-top: 20px;
+}
+
+.searchBar {
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #fff;
+padding: 10px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.actionFilter {
+margin-left: 10px;
+}
+
+.button {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 10px 24px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.button:hover {
+background-color: #45a049;
+}

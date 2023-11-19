@@ -1,0 +1,42 @@
+.myTabs {
+width: 100%;
+margin-top: 50px;
+}
+
+.tabHeaders {
+display: flex;
+justify-content: space-between;
+}
+
+.tabHeader {
+flex: 1;
+text-align: center;
+padding: 15px;
+cursor: pointer;
+font-weight: bold;
+transition: all 0.3s ease;
+position: relative;
+}
+
+.tabHeader.active::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 80%;
+height: 3px;
+background-color: #001F3F;
+}
+
+.tabContent {
+padding: 20px;
+border: 1px solid #ccc;
+border-top: none;
+}
+
+.sortDropdown {
+position: absolute;
+right: 15px;
+top: 20px;
+}

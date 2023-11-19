@@ -1,0 +1,35 @@
+.discountsAndPromotions {
+background: #f0f2f5;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.header {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.cardStyle {
+border-radius: 12px;
+box-shadow: 0px 3px 6px #ccc;
+}
+
+.impactRow {
+margin-top: 20px;
+}
+
+.discountSelect {
+margin-left: 20px;
+}
+
+.cardHeader {
+display: flex;
+align-items: center;
+}
+
+.revenueLoss {
+margin-top: 10px;
+font-size: 16px;
+color: #f44336;
+}

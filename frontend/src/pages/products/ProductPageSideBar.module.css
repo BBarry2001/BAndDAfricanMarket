@@ -1,0 +1,170 @@
+.stickySidebar {
+position: sticky;
+top: 0;
+height:100px;
+overflow-y: auto;
+}
+
+.sidebar {
+flex: 1;
+padding: 0px;
+margin-right: 20px ;
+border-radius: 10px;
+box-shadow: 0px 0px 8px #ccc;
+color: #001F3F ;
+}
+
+.searchBar {
+margin-bottom: 5px;
+display: flex;
+align-items: center;
+border-radius: 5px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.searchIcon {
+padding: 0 10px;
+font-size: 1.2em;
+color: #888;
+}
+
+.searchInput {
+flex: 1;
+padding: 10px;
+font-size: 1em;
+border: none;
+border-radius: 5px 0 0 5px;
+}
+
+.filterSection {
+padding: 15px;
+}
+
+.filterHeader {
+font-size: 1.4em;
+}
+
+.filterTags {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.filterTag {
+cursor: pointer;
+font-size: 1em;
+border-radius: 12px;
+padding: 8px 12px;  
+border: 2px solid transparent; 
+box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+transition: all 0.3s ease; 
+}
+
+.filterTag:hover {
+border: 2px solid #001F3F; 
+box-shadow: 0 2px 10px rgba(0,0,0,0.2); 
+}
+
+.selected {
+border: 2px solid #8B0000 !important; 
+}
+
+.filterTag[data-tag="All Products"] {
+background-color: #A3A3A3 ;  
+}
+
+.filterTag[data-tag="Spices"] {
+background-color: #FFCCCC;
+}
+
+.filterTag[data-tag="Grains"] {
+background-color: #DFD;
+}
+
+.priceSection {
+padding: 20px;
+background-color: #f7f7f7;
+border-radius: 10px;
+}
+
+.priceHeader {
+font-size: 1.4em;
+margin-bottom: 20px;
+}
+
+.priceSliderWrapper {
+margin-bottom: 20px;
+position: relative;
+padding: 0 20px;
+}
+
+.priceSlider {
+margin-bottom: 20px;
+background-color: #f2f2f2;
+border-radius: 4px;
+}
+
+.priceSliderLabel {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+
+.labelStart {
+font-weight: bold;
+color: #333;
+}
+
+.labelEnd {
+font-weight: bold;
+color: #333;
+}
+
+.priceButtons {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.priceButton {
+flex: 1;
+text-align: center;
+}
+
+.ratingSection {
+padding: 15px;
+background-color: #f7f7f7;
+border-radius: 10px;
+}
+
+.ratingHeader {
+font-size: 1.4em;
+margin-bottom: 15px;
+}
+
+.checkboxWrapper {
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+.customCheckbox {
+margin-bottom: 5px;
+}
+
+.filterSection {
+margin-bottom: 20px;
+}
+
+.filterSection,
+.brandSection,
+.colorSection,
+.priceSection {
+margin-bottom: 0px;
+}
+
+.filterTitle {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 10px;
+}

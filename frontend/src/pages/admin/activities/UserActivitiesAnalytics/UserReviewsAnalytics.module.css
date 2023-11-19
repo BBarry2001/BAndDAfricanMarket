@@ -1,0 +1,35 @@
+.container {
+padding: 20px;
+}
+
+.title {
+margin-bottom: 20px;
+}
+
+.card {
+margin-bottom: 20px;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.select {
+margin-bottom: 20px;
+}
+
+.barChart {
+margin-top: 20px;
+}
+
+.table {
+margin-top: 20px;
+}
+
+.controls {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.highlightedRow {
+background-color: rgba(255, 0, 0, 0.1);
+}

@@ -1,0 +1,33 @@
+.tableTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tableFrame {
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    overflow: auto; 
+}
+
+.darkMode {
+    background-color: #001F3F; 
+    color: #ffffff;
+}
+
+.darkMode .ant-table { 
+    background-color: #001F3F;
+    color: #ffffff;
+}
+
+.darkMode .ant-table thead th {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+.lightMode {
+    background-color: #ffffff;
+    color: #000000;
+}

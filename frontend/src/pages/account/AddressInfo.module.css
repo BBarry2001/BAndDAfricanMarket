@@ -1,0 +1,77 @@
+.header {
+font-family: 'Arial', sans-serif;
+font-weight: bold;
+text-align: left;
+color: #001F3F;
+}
+
+.Card {
+background-color: #ECEFF1; 
+border: 1px solid #B0BEC5;
+border-radius: 8px;
+padding: 20px;
+margin-top: 10px;
+}
+
+.headerContainer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.buttonGroup {
+display: flex;
+gap: 10px;
+}
+
+.button {
+background-color: #43A047; 
+color: white;
+}
+
+.labelStyle {
+background-color: transparent; 
+color: #37474F;  
+padding: 5px;
+border-radius: 4px;
+}
+
+.separator {
+border-right: 1px solid #ccc;
+height: 16px;
+margin: 0 8px;
+}
+
+.drawerTitle {
+font-weight: 600;
+font-size: 22px;
+color: #001F3F;
+}
+
+.cardContainer {
+display: flex;
+flex-direction: column;
+background-color: #001F3F;
+color: #fff;
+padding: 15px;
+border: 1px solid #444;
+margin-bottom: 15px;
+}
+
+.editButtons {
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+
+.actionButton {
+background-color: #555;
+color: #fff;
+border: none;
+}
+
+.dangerButton {
+background-color: #f00;
+color: #fff;
+border: none;
+}

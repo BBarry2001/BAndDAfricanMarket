@@ -1,0 +1,106 @@
+.productDetails {
+padding: 50px;
+padding-top: 110px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 50px;
+}
+
+.productName {
+font-size: 36px;
+font-weight: bold;
+}
+
+.productRating {
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+.description {
+font-family: 'Times New Roman', Times, serif;
+line-height: 1.6;
+margin-top: 15px;
+}
+
+.readMore {
+color: blue;
+cursor: pointer;
+}
+
+.share {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.boldShareLabel {
+font-weight: bold;
+}
+
+.customHr {
+margin-top: 0px;
+margin-bottom: 15px;
+}
+
+.iconColInline {
+font-size: 50px;
+display: inline-block;
+margin-bottom:25px;
+vertical-align: middle;
+}
+
+.iconButton {
+margin: 0 5px;
+color: #DAA520;
+}
+
+.anotherPriceLook {
+font-size: 2em;
+color: #008000;
+font-weight: bold;
+margin-right: 20px;
+}
+
+.fullWidthButton {
+color: white;
+border: 2px solid white;
+background-color: #001F3F;
+width: 100%;
+height: 55px;
+font-size: 1.5em;
+margin-top: 20px;
+}
+
+.fullWidthButton:hover {
+background-color: #DAA520 !important;
+}
+
+.priceQuantity {
+display: flex;
+align-items: center;
+}
+
+.quantityCol {
+margin-left: 20px;  
+display: inline-block;
+}
+
+.minusButton {
+color: black;
+border: 1px solid #001F3F;
+margin-right: 5px;
+}
+
+.minusButton:hover {
+background-color: #001F3F; 
+}
+
+.plusButton {
+color: black;
+border: 1px solid #001F3F;
+margin-left: 5px;
+}
+
+.plusButton:hover {
+background-color: #001F3F;
+}

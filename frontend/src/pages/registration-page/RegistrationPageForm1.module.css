@@ -1,0 +1,92 @@
+.headerWrapper {
+text-align: center;
+}
+
+.header {
+margin-bottom: 24px;
+font-size: 2.4em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+display: inline-block; 
+border-bottom: 3px solid #DAA520; 
+}
+
+.formLayout {
+width: 100%;
+padding-top: 110px;
+padding-left: 35px;
+padding-right: 35px;
+margin-bottom: 15px;
+}
+
+.inputStyle,
+.dropdownLink {
+font-size: 1.1em;
+height: 45px;
+}
+
+.dropdownLink {
+width: 100%; 
+}
+
+.dropdownLink:hover{
+    background-color: transparent ;
+}
+
+.buttonStyle {
+color: white;
+border: 2px solid white;
+background-color: #001F3F;
+width: 100%;
+height: 55px;
+font-size: 1.5em;
+}
+
+.buttonStyle:hover {
+background-color: #DAA520 !important;
+}
+
+.linkStyle,
+.agreementLabel {
+margin-top: 16px;
+color: #001F3F;
+text-align: center; 
+}
+
+.tosLink {
+color: #ff4500;
+text-decoration: none !important;
+}
+
+.dividerStyle {
+border-top: 4px solid #e8e8e8;
+font-size: 1.2em;
+}
+
+.buttonContainer {
+text-align: center; 
+margin-top: 15px;
+}
+
+.faLanguageIcon{
+    margin-left: 5px;
+}
+
+.googleButton,
+.appleButton {
+display: inline-block; 
+width: 45%;
+margin: 0 2.5%; 
+font-size: 1.2em;
+height: 55px;
+background-color: white;
+color: #8B0000;
+border: 2px solid #001F3F;
+}
+
+.googleButton:hover,
+.appleButton:hover {
+background-color: #DAA520;
+color: white !important;
+border: 2px solid #001F3F !important;
+}

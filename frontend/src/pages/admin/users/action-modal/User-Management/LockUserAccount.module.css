@@ -1,0 +1,73 @@
+.lockButton {
+    color: #f5222d; 
+    margin-left: 8px;
+  }
+  
+  .lockModal {
+    max-width: 520px; 
+  }
+  
+  .warningContainer {
+    margin-bottom: 24px;
+  }
+  
+  .warningTitle {
+    font-weight: 600;
+    color: #faad14; 
+  }
+  
+  .warningText {
+    color: #d48806; 
+    margin-bottom: 16px;
+  }
+  
+  .warningList {
+    list-style: inside square; 
+  }
+  
+  .finalWarning {
+    color: #cf1322; 
+    font-weight: 500;
+    margin-top: 16px;
+  }
+  
+  .saveButton {
+    background-color: #001F3F; 
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    width: 100%;
+    height: 40px;
+    line-height: 40px; 
+  }
+  
+  .saveButton:hover {
+    background-color: #1890ff; 
+    color: #001529; 
+    border: 1px solid #40a9ff; 
+  }
+  
+  .disabledButton {
+    opacity: 0.5; 
+    cursor: not-allowed;
+  }
+  
+  .disabledInput {
+    opacity: 0.5; 
+  }
+  
+  .lockConfirmButton {
+    background-color: #ff4d4f; 
+    border-color: #ff4d4f; 
+  }
+  
+  .lockConfirmButton:hover {
+    background-color: #ff7875; 
+    border-color: #ff7875; 
+  }
+  
